@@ -9,7 +9,7 @@ public class Main {
         //create a scanner object reading from System.in
 Scanner myscanner= new Scanner(System.in);
         //print out:  enter a whole number
-        System.out. println("Enter a whole number: ");
+        System.out.println("Enter a whole number: ");
         //get a line of input convert and save the input into an integer variable (you can assume the user enters a  valid whole number)
         int x=myscanner.nextInt(4);
         //write an if statement that prints "hello world" if the input was less than 4
@@ -22,7 +22,7 @@ Scanner myscanner= new Scanner(System.in);
         }
         //write an if statement that prints out "Because he couldn't see that well." if the input was greater than 1
         if (x>1){
-            System.out.println("Because he couldn't see that well");
+            System.out.println("Because he couldn't see that well.");
         }
         //write an if statement that prints out "When does a joke become a dad joke?"  if the input was equal to 8
         if (x==8){
