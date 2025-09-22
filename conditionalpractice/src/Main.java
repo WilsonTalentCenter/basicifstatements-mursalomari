@@ -7,11 +7,11 @@ public class Main {
         //assume all prints in directions mean to add a newline after: (use println)
 
         //create a scanner object reading from System.in
-Scanner myscanner= new Scanner(System.in);
+        Scanner myScanner= new Scanner(System.in);
         //print out:  enter a whole number
         System.out.println("Enter a whole number: ");
         //get a line of input convert and save the input into an integer variable (you can assume the user enters a  valid whole number)
-        int x=myscanner.nextInt(4);
+        int userInput= myScanner.nextInt();
         //write an if statement that prints "hello world" if the input was less than 4
         if (x<4){
             System.out.println("hello world");
